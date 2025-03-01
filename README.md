@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alfabit  
 
-## Getting Started
+Alfabit is an innovative technology company dedicated to providing creative and efficient solutions for its clients. Recognizing the importance of consistent and intuitive design across all its platforms and products, Alfabit has decided to invest in a cutting-edge design system.  
 
-First, run the development server:
+## 🛠️ Installation  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+$ npm install  
+$ //or  
+$ yarn add  
+```  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔨 Project  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can find the [Figma for this application here](https://www.figma.com/file/h86gUvqUXTKwgr6tVYinLT/React%3A-Design-System-com-Tailwind?type=design&node-id=0-1&t=GuaFV9cp30SS2di9-0).  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✔️ Techniques and Technologies Used  
 
-## Learn More
+- `React`  
+- `Next.js`  
+- `Tailwind CSS`  
+- `Storybook`  
+- `Class Variance Authority (cva)`  
+- `Headless UI`  
+- `classnames`  
+- `GitHub`  
+- `Figma`  
 
-To learn more about Next.js, take a look at the following resources:
+And much more!  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Open and Run the Project  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+After cloning or downloading the project, install the dependencies, open it in your favorite IDE (I recommend VS Code), and type `npm run storybook` in the terminal. Then, access the URL shown in the terminal.  
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Note:** This project is a **study case** designed to explore and demonstrate best practices in building a design system.

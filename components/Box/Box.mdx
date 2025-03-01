@@ -1,0 +1,28 @@
+import { Meta, Primary, Canvas, Controls } from "@storybook/blocks";
+
+import * as Story from "./Box.stories.ts";
+
+<Meta of={Story} />
+
+# Box
+
+### Default box
+
+<Canvas of={Story.Default} />
+
+### Alert box
+
+<Canvas of={Story.BoxAlert} />
+
+### Error box
+
+<Canvas of={Story.BoxError} />
+
+### Success box
+
+<Canvas of={Story.BoxSuccess} />
+
+## Interactive docs
+
+<Primary />
+<Controls />

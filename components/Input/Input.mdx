@@ -1,0 +1,26 @@
+import { Meta, Controls, Primary, Canvas } from "@storybook/blocks";
+import * as Story from "./Input.stories.ts";
+
+<Meta of={Story} />
+
+# Input
+
+### Primary
+<Canvas of={Story.Primary} />
+### Primary disabled
+<Canvas of={Story.PrimaryDisabled} />
+### Multiline
+<Canvas of={Story.Multiline} />
+### Multiline disabled
+<Canvas of={Story.MultilineDisabled} />
+### Primary with label
+<Canvas of={Story.PrimaryLabel} />
+### Primary with label disabled
+<Canvas of={Story.PrimaryLabelDisabled} />
+### Multiline with label disabled
+<Canvas of={Story.MultilineLabelDisabled} />
+
+## Interactive docs
+
+<Primary />
+<Controls />

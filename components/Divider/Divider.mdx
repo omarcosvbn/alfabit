@@ -1,0 +1,28 @@
+import { Meta, Primary, Canvas, Controls } from "@storybook/blocks";
+
+import * as Story from "./Divider.stories.ts";
+
+<Meta of={Story} />
+
+# Divisor
+
+### Divider default
+
+<Canvas of={Story.Default} />
+
+### Divider with text
+
+<Canvas of={Story.DivisorWithProps} />
+
+### Divider with thickness
+
+<Canvas of={Story.ThicknessDivisor} />
+
+### Divider with light background
+
+<Canvas of={Story.DivisorDark} />
+
+## Interactive docs
+
+<Primary />
+<Controls />

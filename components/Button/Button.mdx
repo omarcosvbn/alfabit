@@ -1,0 +1,23 @@
+import { Meta, Controls, Primary, Canvas } from '@storybook/blocks'
+import * as Story from './Button.stories.ts'
+
+<Meta of={Story} />
+
+# Button
+
+### Primary
+<Canvas of={Story.Primary} />
+### Primary disabled
+<Canvas of={Story.Disabled} />
+### Secondary
+<Canvas of={Story.Secondary} />
+### Secondary disabled
+<Canvas of={Story.SecondaryDisabled} />
+### Violet theme
+<Canvas of={Story.Violet} />
+### Secondary violet theme
+<Canvas of={Story.VioletSecondary} />
+
+### Interactive docs:
+<Primary />
+<Controls />
