@@ -14,7 +14,7 @@ export type DropdownProps = {
   list: string[];
 };
 
-const Dropdown = ({ list = [], ...rest }: DropdownProps) => {
+const Dropdown = ({ list = [] }: DropdownProps) => {
   const [selectedItem, setSelectedItem] = useState(list[0]);
   const [query, setQuery] = useState("");
 
@@ -26,7 +26,7 @@ const Dropdown = ({ list = [], ...rest }: DropdownProps) => {
         });
 
   return (
-    <Combobox value={selectedItem} onChange={setSelectedItem} {...rest}>
+    <Combobox value={selectedItem} onChange={(value: string) => setSelectedItem(value)}>
       <div className={dropdownStyles.container}>
         <div className={dropdownStyles.containerMenu}>
           <ComboboxInput
